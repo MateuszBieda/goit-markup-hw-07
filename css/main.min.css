@@ -148,8 +148,8 @@ header li {
 .header__navigation-link:focus {
   color: var(--third-brand-color);
 }
-.header__navigation-link--link1:hover::after,
-.header__navigation-link--link1:link::after {
+.header__navigation-link--active1:hover::after,
+.header__navigation-link--active1:link::after {
   position: absolute;
   content: "";
   width: 58px;
@@ -159,8 +159,8 @@ header li {
   top: 44px;
   left: 0;
 }
-.header__navigation-link--link2:hover::after,
-.header__navigation-link--link2:link::after {
+.header__navigation-link--active2:hover::after,
+.header__navigation-link--active2:link::after {
   position: absolute;
   content: "";
   width: 58px;
@@ -180,10 +180,10 @@ header li {
 .header__contacts-link:focus {
   color: var(--third-brand-color);
 }
-a svg {
+.header__contacts-link svg {
   transition: fill 250ms var(--cubic-bezier);
 }
-a svg:hover svg {
+.header__contacts-link:hover svg {
   fill: var(--third-brand-color);
 }
 
@@ -652,14 +652,14 @@ footer {
   margin-top: -5px;
   padding-top: 20px;
 }
-.portfolio-images-list__item {
+.portfolio-images-list__card {
   cursor: pointer;
   box-shadow: none;
   transition: box-shadow 250ms var(--cubic-bezier);
 }
-.portfolio-images-list__item:active,
-.portfolio-images-list__item:hover,
-.portfolio-images-list__item:focus {
+.portfolio-images-list__card:active,
+.portfolio-images-list__card:hover,
+.portfolio-images-list__card:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06);
 }
 .portfolio-images-list__item {
@@ -683,7 +683,7 @@ footer {
   font-size: 18px;
   line-height: 1.55;
 }
-.portfolio-images-list__item:hover .portfolio-images-list__overlay {
+.portfolio-images-list__card:hover .portfolio-images-list__overlay {
   transform: translatey(0);
 }
 .portfolio-images-list__overlay {

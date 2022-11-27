@@ -51,8 +51,8 @@ header li {
     color: var(--third-brand-color);
   }
 
-  &--link1:hover::after,
-  &--link1:link::after {
+  &--active1:hover::after,
+  &--active1:link::after {
     position: absolute;
     content: "";
     width: 58px;
@@ -63,8 +63,8 @@ header li {
     left: 0;
   }
 
-  &--link2:hover::after,
-  &--link2:link::after {
+  &--active2:hover::after,
+  &--active2:link::after {
     position: absolute;
     content: "";
     width: 58px;
@@ -88,10 +88,9 @@ header li {
   color: var(--third-brand-color);
 }
 
-a svg {
+.header__contacts-link svg {
   transition: fill 250ms var(--cubic-bezier);
-
-  &:hover svg {
-    fill: var(--third-brand-color);
-  }
+}
+.header__contacts-link:hover svg {
+  fill: var(--third-brand-color);
 }
