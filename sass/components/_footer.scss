@@ -56,7 +56,7 @@ footer {
   fill: var(--first-brand-color);
   cursor: pointer;
   transition: fill 250ms var(--cubic-bezier),
-  background-color 250ms var(--cubic-bezier);
+    background-color 250ms var(--cubic-bezier);
 
   &:active,
   &:hover,
@@ -139,4 +139,7 @@ footer {
   position: absolute;
   right: 28px;
   top: 13px;
+}
+.footer-section__footer-icon-flex {
+  padding-top: 20px;
 }

@@ -2,11 +2,12 @@
 @import "./utils/visually-hidden";
 @import "./base.scss/common";
 @import "./base.scss/container";
+
 @import "./components/page.header";
 @import "./components/logo-header&footer";
 
 @import "./components/links";
-
+@import "./components/main-portfolio";
 @import "./components/first-section";
 @import "./components/second-section";
 @import "./components/first-section-button";
@@ -16,5 +17,5 @@
 @import "./components/clients-section";
 @import "./components/backdrop";
 @import "./components/footer";
-@import "./components/main-portfolio";
+
 @import "./components/modal";
