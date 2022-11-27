@@ -184,6 +184,9 @@ h2 {
   line-height: 1.17;
   margin-top:10px;
 }
+
+/* FOOTER */
+
 footer {
   background-color:var(--second-brand-color);
 }
